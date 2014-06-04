@@ -1,0 +1,23 @@
+N farmers
+B bags
+Every T days
+
+Number identifying farmers (1st,2nd,3rd etc)
+
+implement linked list
+	in python, class for one farmer to reference next class
+
+Farmer
+	-farmerID ---- int
+	-name
+	-nextFarmer ---- object
+
+FarmersCollection
+	-numFarmers
+	-numOfBags	---- int
+	-daysInterval --- int
+	-firstFarmer --- object
+	-lastFarmer --- object
+	-nextReceiver --- object
+	-previousReceiver --- object
+	-nextReceiverInDays(int) --- return object
