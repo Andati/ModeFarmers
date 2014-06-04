@@ -1,0 +1,15 @@
+add Joseph
+add Rodgers
+add Faith
+add Vincent
+add Mildred
+add Janet
+add Andrew
+
+remove Joseph
+remove Mildred
+
+update Rodgers received
+
+
+*Assumption - oldest farmer is first to receive

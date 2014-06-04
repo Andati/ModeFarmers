@@ -1,0 +1,13 @@
+List of farmers
+--------------------------
+Name: Rodgers, No: 1
+Name: Faith, No: 2
+Name: Vincent, No: 3
+Name: Janet, No: 4
+Name: Andrew, No: 5
+
+Next Receiver:-  Name: Faith, No: 2 
+
+Previous receiver :-  Name: Rodgers, No: 1 
+
+Receiver in 8 days is:-  Name: Vincent, No: 3 

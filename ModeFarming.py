@@ -75,7 +75,7 @@ class FarmersCollection:
 				previous = farmer
 				farmer = farmer.nextFarmer
 				if farmer == None:
-					print "No such farmer\n"
+					print "*** No such farmer\n"
 	def getNextReceiver(self):
 		"""Returns who is next to receive coffee of bags """
 		print "Next Receiver:- ", self.nextReceiver, "\n"
@@ -87,7 +87,7 @@ class FarmersCollection:
 			else:
 				self.nextReceiver = self.firstFarmer
 		else:
-			print "You are violating the order! "+ self.nextReceiver.name + " is to receive next.\n"	
+			print "*** You are violating the order! "+ self.nextReceiver.name + " is to receive next.\n"	
 
 	def printFarmers(self):
 		""" Iteration over all the farmers and printing their number"""
@@ -126,8 +126,7 @@ class FarmersCollection:
 
 			print "Receiver in " + str(days) + " days is:- ", farmer, "\n"
 
-
-#Implementation section
+#IMPLEMENTATION SECTION
 farmers = FarmersCollection() #Instance of the collection
 print "" #new line
 
